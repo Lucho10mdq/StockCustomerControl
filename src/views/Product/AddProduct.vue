@@ -77,7 +77,7 @@ export default {
                 stock : app.stock,
                 price : app.price,
                 codigo : app.code,
-                idCategory: app.Category,
+                category_id: app.Category,
             }
             console.log(Product)
             if ((app.description != '') && (app.stock != '') && (app.price != '')  && (app.code != '') && (app.Category != '') ){
